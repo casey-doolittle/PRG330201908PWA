@@ -232,9 +232,9 @@ function loadLocationList() {
     }
   }
   if (!locations || Object.keys(locations).length === 0) {
-    const key = '40.7720232,-73.9732319';
+    const key = '41.7180293,-111.8379432';
     locations = {};
-    locations[key] = {label: 'New York City', geo: '40.7720232,-73.9732319'};
+    locations[key] = {label: 'Stevens-Henager Logan', geo: '41.7180293,-111.8379432'};
   }
   return locations;
 }
